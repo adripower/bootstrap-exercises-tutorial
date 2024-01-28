@@ -12,30 +12,39 @@
 		<title>07 Buttons, Alert and Table</title>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-6 p-5">
-					<h2>Its hard to remember all the bootstrap elements</h2>
+				<div class="col-6">
+					<h5>Its hard to remember all the bootstrap elements</h5>
 					<p>The rest seems easy because it was very well thought!Don´t you agree?</p>
-					<button class="btn btn-primary" type="button bg-danger">Yes</button>
-					<button class="btn btn-primary" type="button bg-danger">No</button>
+					<button type="button " class="btn btn-success">Yes</button>
+					<button type="button" class="btn btn-danger">No</button>
 				</div>
-				<div class="col-6 p-5">
-					<p class="bg-warning">If you don´t agree some of this people may slap you in the face:</p>
+				<div class="col-6">
+					<div class="alert alert-warning" role="alert">If you don´t agree some of this people may slap you in the face:</div>
 					<table class="table table-striped">
 						<thead>
 							<tr>
-								<th scope="col">#</th>
-								<th scope="col">nombre</th>
-								<th scope="col">apellido</th>
-								<th class="col">segundo apellido</th>
+								<th scope="col">First</th>
+								<th scope="col">Last</th>
+								<th scope="col">Handle</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="col">1</th>
-								<th class="col"></th>
-								<th class="col">torres</th>
+								<th>Mark</th>
+								<th>Otto</th>
+								<th>@mdo</th>
+							</tr>
+							<tr>
+								<th>Jacob</th>
+								<th>Thornton</th>
+								<th>@fat</th>
+							</tr>
+							<tr>
+								<th>Larry the Bird</th>
+								<th></th>
+								<th>@twitter</th>
 							</tr>
 						</tbody>
 					</table>
